@@ -30,3 +30,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 This is a bare minimum Angular project describing the use of APP_INITIALIZER 
 It simply shows for alerts 1,2,3,4 in sequence and then app.component.ts constructor is called. 
 This ensures that code in APP_INITIALIZER is executed before any component is loaded.
+
+Remmber two things: 1. myFunc should return a function which returns a promise. 2. provider should use "multi : true" 
