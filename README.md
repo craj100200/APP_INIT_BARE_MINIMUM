@@ -25,3 +25,8 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Bare minimum APP_INITIALIZER
+This is a bare minimum Angular project describing the use of APP_INITIALIZER 
+It simply shows for alerts 1,2,3,4 in sequence and then app.component.ts constructor is called. 
+This ensures that code in APP_INITIALIZER is executed before any component is loaded.
